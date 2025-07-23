@@ -7,6 +7,9 @@ import com.sivalabs.bookstore.catalog.domain.ProductService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * controller for product service
+ */
 @RestController
 @RequestMapping("/api/products")
 class ProductController {
